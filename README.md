@@ -1,5 +1,4 @@
 # sei-final-project
-# sei-final-project
 ![GA Logo](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
 # Software Engineering Immersive: Project 4
 This was the fourth and last project I built whilst studying the Software Engineering Immersive course at General Assembly.
