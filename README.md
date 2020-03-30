@@ -142,10 +142,29 @@ class Like(models.Model):
 
 + Articles - the articles use a Post request to be submitted by a user, they are then edited by using a Put request and they are read by using Get requests.
 
+# FRONT-END FEATURES
+
+Here are some features of the website that we designed using React.js. We decided to keep the aesthetic of the website quite simple and minimalist. 
+
+![Homepage](readmefiles/hompage.png)
+
+
+![FAQ Page](readmefiles/faq.png)
+
+
+![Registration](readmefiles/register.png)
+
+
+![Login](readmefiles/login.png)
+
+
+![Article Index Page](readmefiles/articles.png)
+
 ### Challenges
 The main challenges:
 1. Designing a thorough plan for our Python model to stop ourselves from having to go back into the Back-End and modifying it when designing and implementing the Font-End. 
 2. Getting the comments to automatically refresh themselves once an article is commented on by a user.
+3. Upon deployment, our database did not get pushed through onto Heroku, meaning that our articles, comments and editing/deleting articles failed to work. (However, we found out that we could solve this by going through our users comments etc. and inputing them manually once deployed).
 
 
 ### Improvements
@@ -153,6 +172,7 @@ The improvements include:
 1. Given more time, to create a user profile page, where it lists users own articles, profile picture and articles they have commented on.
 2. Improve the CSS and styling.
 3. Add paragraphing into the back-end model so that the articles are formatted in a cleaner, more concise way
+4. User authetication for editing and deleting articles.
 
 #### Author
 Rory Fletcher
