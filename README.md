@@ -142,3 +142,22 @@ class Like(models.Model):
 | article/\<int:pk>/likes/\<int:like_pk>       |     |     |  X   |        |
 
 + Articles - the articles use a Post request to be submitted by a user, they are then edited by using a Put request and they are read by using Get requests.
+
+### Challenges
+The main challenges:
+1. Designing a thorough plan for our Python model to stop ourselves from having to go back into the Back-End and modifying it when designing and implementing the Font-End. 
+2. Getting the comments to automatically refresh themselves once an article is commented on by a user.
+
+
+### Improvements
+The improvements include:
+1. Given more time, to create a user profile page, where it lists users own articles, profile picture and articles they have commented on.
+2. Improve the CSS and styling.
+3. Add paragraphing into the back-end model so that the articles are formatted in a cleaner, more concise way
+
+#### Author
+Rory Fletcher
+
+
+
+
